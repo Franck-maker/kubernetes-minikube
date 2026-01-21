@@ -106,7 +106,7 @@ Example: `docker push myDockerID/myservice:1`
 kubectl get nodes
 ```
 ```
-kubectl create deployment myservice --image=efrei/myservice:1
+kubectl create deployment myservice --image=myDockerID/myservice:1
 ```
 
 The image used comes from the Docker hub: https://hub.docker.com/r/efrei/myservice/tags
@@ -352,6 +352,7 @@ http://myservice.info/
 
 On Windows : edit the `c:\windows\system32\drivers\etc\hosts` file, add 
 
+
 `127.0.0.1 myservice.info`	
 
 Enable a tunnel for Minikube:
@@ -362,6 +363,8 @@ minikube addons enable ingress-dns
 ```
 minikube tunnel
 ```
+
+## Franck stop find out why it doesn't work
 
 Then check in your Web browser: 
 
