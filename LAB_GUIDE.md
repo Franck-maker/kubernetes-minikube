@@ -82,6 +82,9 @@ kubectl apply -f ingress.yml
 Open your browser and navigate to:
 [http://myservice.info](http://myservice.info)
 
+<img width="927" height="148" alt="image" src="https://github.com/user-attachments/assets/09c6708b-8eac-4da5-9167-5137285e589b" />
+
+
 ---
 
 ## Useful Debug Commands
